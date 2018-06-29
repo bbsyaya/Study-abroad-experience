@@ -1,0 +1,1202 @@
+/* 通用样式开始 */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+p {
+  line-height: 1.8;
+}
+em {
+  font-style: normal;
+}
+input {
+  outline: none;
+}
+.container {
+  width: 1180px;
+  margin: auto;
+}
+.clearfloat {
+  clear: both;
+}
+.one-line {
+  display: flex;
+  flex-direction: row;
+}
+.hidden {
+  display: none;
+}
+/* 头部导航栏css开始 */
+body > div.index {
+  margin-top: 78px;
+}
+.header-line {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 57px;
+  line-height: 57px;
+  position: relative;
+}
+.header img.kewo-logo {
+  width: 139px;
+  height: 58px;
+}
+.header ul li {
+  text-align: center;
+  padding: 0 8px;
+  margin-left: 60px;
+  box-sizing: border-box;
+}
+.header .right {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 58px;
+}
+.header .right img {
+  margin-right: 5px;
+}
+.header .right .phone,
+.header .right .user {
+  display: flex;
+  align-items: center;
+}
+.header .right .user {
+  margin-left: 22px;
+  position: relative;
+  padding: 20px 10px;
+}
+.header .right .user span {
+  padding: 0 5px;
+}
+.header .user .user-info {
+  position: absolute;
+  top: 58px;
+  right: -1px;
+  text-align: center;
+  display: none;
+  width: 160px;
+}
+.header .right .user:hover ul.user-info {
+  display: block;
+}
+.header .user .user-info li {
+  margin-left: 0;
+  width: 160px;
+}
+.header .user .user-info li a {
+  width: 160px;
+}
+/* 头部导航栏css结束 */
+/* 申请表单css开始 */
+.infosend {
+  text-align: center;
+  padding-left: 10px;
+}
+.infosend input,
+.infosend select {
+  width: 260px;
+  height: 20px;
+  margin-bottom: 14px;
+  padding: 8px;
+  box-sizing: content-box;
+  display: block;
+}
+.infosend img {
+  width: 85px;
+  height: 40px;
+}
+.infosend .one-line input {
+  width: 155px;
+  margin-right: 20px;
+}
+.infosend .button_send {
+  width: 132px;
+  height: 40px;
+  border-radius: 4px;
+  margin: 20px auto 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.infosend .send_smscode {
+  width: 85px;
+  height: 31px;
+  text-align: center;
+  line-height: 25px;
+}
+/* 申请表单css结束 */
+/* 通用样式结束 */
+/* 分页css */
+.main ul.pagination {
+  text-align: center;
+  margin: 40px auto;
+}
+.main ul.pagination li {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+}
+.main ul.pagination li a {
+  width: 36px;
+  height: 36px;
+}
+.main ul.pagination li.page-trun {
+  width: 88px;
+}
+.main ul.pagination li.page-trun a {
+  width: 88px;
+}
+/* 分页css结束 */
+/* 热门文章css开始 */
+.main .right .hot-article {
+  padding-bottom: 40px;
+}
+.main .right .hot-article h3 {
+  text-align: center;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.main .right .hot-article .attach + .attach,
+.main .right .hot-article .one-line {
+  margin-top: 20px;
+}
+.main .right .hot-article .attach span.range {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 56px;
+  height: 26px;
+  line-height: 26px;
+}
+.main .right .hot-article .one-line .right {
+  width: 190px;
+}
+.main .right .hot-article .one-line .right {
+  margin-left: 0px;
+  position: relative;
+}
+.main .right .hot-article .one-line a.info-img {
+  position: relative;
+}
+.main .right .hot-article .one-line a.info-img span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+.main .right .hot-article .one-line .right p {
+  height: 46px;
+}
+.main .right .hot-article .one-line .right span {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+}
+/* 热门文章css结束 */
+/* 猜您喜欢css开始 */
+.guess-like {
+  margin: 20px auto 40px;
+}
+.guess-like .suggest {
+  display: inline-flex;
+  flex-direction: column;
+  width: 280px;
+  overflow: hidden;
+  margin: 20px 12px 10px 0;
+}
+.guess-like .suggest:nth-child(odd) {
+  margin-right: 12px;
+}
+.guess-like .suggest img {
+  width: 280px;
+}
+.guess-like .suggest a {
+  height: 33px;
+  overflow: hidden;
+  margin-top: 14px;
+}
+/* 猜您喜欢css结束 */
+/* 网页路径css开始 */
+.page_location {
+  margin: 20px auto;
+  text-align: left;
+}
+.page_location a.parent_path::after {
+  content: ">";
+  padding-left: 8px;
+}
+/* 网页路径css结束 */
+/* 页脚css开始 */
+.footer {
+  padding-bottom: 55px;
+}
+.footer .foot-nav {
+  margin: 40px auto 0;
+  display: flex;
+  flex-direction: row;
+}
+.footer .foot-nav .copyright {
+  margin-left: 200px;
+}
+.footer .foot-nav ul li {
+  margin: 0 40px 20px;
+}
+.footer .copyright {
+  text-align: center;
+}
+/* 页脚css结束 */
+/* 留学社区-首页样式开始 */
+.index .show {
+  margin: 78px auto 40px;
+  display: flex;
+  flex-direction: row;
+}
+.index a.attach {
+  position: relative;
+}
+.index a.attach span {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.index .show .swiper-container a span {
+  height: 53px;
+  line-height: 53px;
+}
+.index .show .right a.attach span,
+.index .main .right .sec a.attach span {
+  height: 38px;
+  line-height: 38px;
+}
+a.attach span,
+.main .left .one-line .right a h3,
+.main .left .sec3 .list .item a,
+.main .right ul a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+}
+.main .right .p-exp-list ul a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.main .left .one-line .right a h3 {
+  width: 480px;
+  height: 20px;
+  overflow: hidden;
+}
+.index .show .swiper-container {
+  width: 570px;
+  height: 400px;
+}
+.index .show .swiper-container a {
+  height: 400px;
+  overflow: hidden;
+}
+.index .show .swiper-container img {
+  width: 570px;
+}
+.index .show .swiper-pagination-bullets {
+  bottom: 60px;
+}
+.index .swiper-pagination-bullet {
+  width: 14px;
+  height: 14px;
+}
+.index .show .right {
+  width: 620px;
+}
+.index .show .right a {
+  margin-left: 20px;
+  width: 285px;
+  height: 190px;
+  overflow: hidden;
+}
+.index .show .right a:first-child,
+.index .show .right a:nth-child(2) {
+  margin-bottom: 13px;
+}
+.index .show .right img {
+  width: 285px;
+}
+div.index .main,
+div.self-info .main {
+  display: flex;
+  flex-direction: row;
+}
+.index .main .title {
+  position: relative;
+  display: inline-block;
+}
+.index .main .title .more {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.index .main h3.sub-title,
+.index .main h3.center-title {
+  padding-bottom: 20px;
+}
+.index .main h3.center-title {
+  text-align: center;
+  margin: 18px auto 20px;
+}
+.index .main .left,
+.index .main .left .title {
+  width: 800px;
+}
+.index .main .left .title h3.classify {
+  width: 800px;
+}
+.index .main .left .sec:not(.sec1) {
+  margin-top: 40px;
+}
+.index .main .left .sec1 a {
+  margin-right: 10px;
+  width: 253px;
+  height: 180px;
+  overflow: hidden;
+}
+.index .main .left .sec1 img {
+  width: 253px;
+}
+.index .main .left .one-line {
+  padding: 20px 0;
+}
+.index .main .left .one-line a.left {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
+}
+.index .main .left .sec2 .one-line a.left img {
+  width: 300px;
+}
+.index .main .left .sec2 .one-line a.left span.classify {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  height: 24px;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 24px;
+  padding: 2px 12px;
+}
+.index .main .left .one-line .right {
+  width: 480px;
+}
+.index .main .left .one-line .right {
+  margin-left: 20px;
+  position: relative;
+}
+.index .main .left .one-line .right a h3 {
+  margin-bottom: 14px;
+}
+.index .main .left .one-line .right .bottom {
+  position: absolute;
+  bottom: 0;
+}
+.index .main .left .one-line .right .bottom span:first-child {
+  margin-right: 40px;
+}
+.index .main .left .one-line .right .bottom a.share {
+  width: 18px;
+  height: 21px;
+  position: absolute;
+  top: -5px;
+  left: 440px;
+}
+.main .one-line p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.index .main .left .sec2 .one-line p {
+  width: 480px;
+  height: 69px;
+}
+.index .main .left .sec3 .one-line p {
+  width: 590px;
+  height: 70px;
+}
+.index .main .left .sec3 .classify {
+  font-weight: normal;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.index .main .left ul.community-section {
+  position: relative;
+}
+.index .main .left ul.community-section li {
+  margin: 0 20px 20px;
+}
+.index .main .left .sec3 ul a.more img {
+  width: 11px;
+  height: 6px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.index .main .left .sec3 .one-line {
+  padding: 20px 0;
+}
+.index .main .left .sec3 .one-line .left {
+  width: 190px;
+  height: 138px;
+  overflow: hidden;
+}
+.index .main .left .sec3 .one-line .left img {
+  width: 190px;
+}
+.index .main .left .sec3 .one-line .right {
+  width: 590px;
+}
+.index .main .left .sec3 .list {
+  margin-top: 20px;
+}
+.index .main .left .sec3 .list .item {
+  display: flex;
+  flex-direction: row;
+  width: 356px;
+  float: left;
+  position: relative;
+  margin-bottom: 14px;
+}
+.index .main .left .sec3 .list .item:last-child {
+  margin-bottom: 40px;
+}
+.index .main .left .sec3 .list .item:nth-child(even) {
+  margin-left: 88px;
+}
+.index .main .left .sec3 .list .item a.title {
+  width: 250px;
+  height: 16px;
+  overflow: hidden;
+}
+.index .main .left .sec3 .list .item span {
+  position: absolute;
+  right: 0;
+}
+.index .main .right {
+  margin-left: 60px;
+  width: 300px;
+}
+.index .main .right .title {
+  width: 300px;
+}
+.index .main > .right .title:not(.top-title) {
+  margin-top: 20px;
+}
+.index .main .right ul {
+  margin: 20px auto 40px;
+}
+.index .main .right ul li {
+  margin-bottom: 14px;
+  display: flex;
+}
+.index .main .right ul li::before {
+  content: "●";
+  margin-right: 4px;
+}
+.index .main .right .top-info .info-title {
+  margin: 0 auto 18px;
+}
+.index .main .right .one-line a.info-img {
+  width: 100px;
+  height: 70px;
+  overflow: hidden;
+}
+.index .main .right .one-line a.info-img img {
+  width: 100px;
+}
+.index .main .right .one-line p {
+  width: 190px;
+  height: 69px;
+  margin-left: 10px;
+}
+.index .main .right .qr-code {
+  text-align: center;
+}
+.index .main .right .qr-code img {
+  margin: 20px auto 40px;
+}
+/* 留学社区-首页样式结束 */
+/* 留学要闻样式开始 */
+.info .main .right .qr-code {
+  margin-top: 40px;
+}
+.info .show {
+  position: relative;
+}
+.info .show .swiper-container {
+  width: 1180px;
+  height: 400px;
+}
+.info .show .swiper-container a {
+  height: 400px;
+  overflow: hidden;
+}
+.info .show .swiper-container img {
+  width: 1180px;
+}
+.info .show .swiper-pagination-bullets {
+  bottom: 20px;
+}
+.info .show .swiper-pagination-bullet {
+  width: 20px;
+  height: 6px;
+  border-radius: 4px;
+}
+.info .show .table {
+  position: absolute;
+  top: 0;
+  right: 60px;
+  z-index: 99;
+  padding: 20px 20px 0;
+}
+.info .show .table h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.info .infosend .button_send {
+  margin: 11px auto 20px;
+}
+.main ul.country li {
+  margin: 20px 14px 0 0;
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.info .main .sec2 .day-info {
+  display: flex;
+  flex-direction: row;
+}
+.info .main .sec2 .day-info .day {
+  width: 62px;
+  height: 92px;
+  margin: 20px 13px 0 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info .main .sec2 .day-info .day h3:first-child {
+  margin-bottom: 14px;
+}
+.info .main .sec2 .day-info .info {
+  width: 720px;
+}
+/* 留学要闻css结束 */
+/* 经验分享css开始 */
+.expshare .main .left ul.abroad li {
+  padding: 0px 4px 7px;
+  margin: 0 16px;
+}
+.expshare a.more {
+  display: block;
+  margin: 40px auto;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 8px;
+}
+.main > .right span {
+  display: block;
+  padding-top: 7px;
+}
+/* 经验分享css结束 */
+/* 热门专题css开始 */
+.hot-topic ul {
+  margin: 20px auto 40px;
+}
+.hot-topic li {
+  width: 220px;
+  height: 150px;
+  overflow: hidden;
+}
+.hot-topic li:not(:last-child) {
+  margin-right: 20px;
+}
+.hot-topic a img {
+  width: 220px;
+}
+/* 热门专题css结束 */
+/* 文章详情css开始 */
+.article-detail h2.article {
+  text-align: center;
+  margin: 20px 0;
+}
+.article-detail .note {
+  margin-bottom: 40px;
+}
+.article-detail .note > span {
+  display: inline-block;
+  margin-right: 20px;
+}
+.article-detail .note .share {
+  display: inline-flex;
+  align-items: center;
+}
+.article-detail .note .share span + a {
+  margin-right: 8px;
+}
+.article-detail .content p {
+  text-indent: 32px;
+  margin-bottom: 20px;
+}
+.article-foot .label span {
+  padding: 5px 16px;
+  border-radius: 8px;
+}
+.article-foot {
+  position: relative;
+  margin-top: 40px;
+}
+.article-foot .pagination {
+  position: absolute;
+  top: -5px;
+  right: 0;
+}
+.article-foot .pagination ul {
+  display: inline-block;
+  margin-left: 14px;
+}
+.article-foot .pagination ul li {
+  padding: 8px 14px;
+}
+.article-foot .pagination ul li.active {
+  border: none;
+}
+.article-detail .other-link {
+  margin: 40px auto 20px;
+}
+.article-detail .other-link a {
+  display: block;
+}
+.article-detail .other-link a:first-child {
+  margin-bottom: 14px;
+}
+/* 文章详情css结束 */
+/* 快速登录遮罩层css开始 */
+body {
+  position: relative;
+}
+.cover {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+}
+.cover .close {
+  position: absolute;
+  top: 785px;
+  left: 50%;
+  margin-left: -8.5px;
+}
+.cover .quick {
+  background: #ffffff;
+  margin: auto;
+  text-align: center;
+  width: 900px;
+  height: 600px;
+  position: relative;
+  top: 165px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+}
+.cover .quick .form {
+  margin: 0 auto;
+  padding: 60px 40px 30px;
+}
+.cover .quick .form ul.tab {
+  width: 420px;
+  margin-top: 40px;
+  border-radius: 2px;
+  box-sizing: content-box;
+  text-align: center;
+  letter-spacing: -5px;
+}
+.cover .quick .form ul.tab li {
+  width: 210px;
+  height: 56px;
+  text-align: center;
+  line-height: 56px;
+  cursor: pointer;
+  letter-spacing: normal;
+}
+.cover .quick form {
+  position: relative;
+  margin-top: 55px;
+}
+.cover .quick form span.send_smscode {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  padding: 7px 15px;
+  cursor: pointer;
+}
+.cover .quick form input {
+  border: none;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 380px;
+}
+.cover .quick form a.forget {
+  position: absolute;
+  right: 0;
+}
+.cover .quick form a.button_send {
+  padding: 17px 196px;
+  margin: 40px auto 20px;
+  border-radius: 4px;
+}
+.cover.regist h3 {
+  margin-top: 20px;
+}
+.cover .quick form span.agreement {
+  position: absolute;
+  right: 0;
+  border: none;
+}
+/* 快速登录遮罩层css结束 */
+/* 留学社区css开始 */
+.header.community ul li {
+  text-align: center;
+  padding: 0 8px;
+  margin: 0 40px 0 0;
+  box-sizing: border-box;
+}
+.header.community .center {
+  position: relative;
+}
+.header.community .center input {
+  border-radius: 4px 0 0 4px;
+  padding: 7px 14px;
+  width: 220px;
+  height: 18px;
+}
+.header.community .center a {
+  width: 28px;
+  height: 20px;
+  line-height: 20px;
+}
+.header.community .center a.search {
+  box-sizing: content-box;
+  position: absolute;
+  left: 250px;
+  top: 12px;
+  padding: 7px 13px;
+  border-radius: 0 4px 4px 0;
+}
+.header.community .center a.ask {
+  margin-left: 62px;
+  padding: 7px 22px;
+  border-radius: 4px;
+}
+.main ul.country.community {
+  border-bottom: none;
+}
+.main ul.country.community li {
+  border-radius: 4px;
+  width: 70px;
+  height: 20px;
+  padding: 7px 15px;
+  line-height: 20px;
+}
+.community .post-list .post {
+  padding: 40px 0;
+}
+.community .post-list .post h3,
+.community .post-list .post p {
+  margin-bottom: 20px;
+}
+.community .bottom span {
+  margin-right: 20px;
+}
+.community .bottom img {
+  vertical-align: bottom;
+}
+.community .main .shadow {
+  box-shadow: 0px 2px 4px 0px rgba(204, 204, 204, 0.5);
+  margin-bottom: 40px;
+  padding: 20px 14px 1px;
+}
+.community .main .right .user {
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 4px;
+}
+.community .main .right .user a.head {
+  width: 64px;
+  height: 64px;
+  padding: 20px 0 0;
+  overflow: hidden;
+}
+.community .main .right .user a.head img {
+  width: 64px;
+  border-radius: 50%;
+}
+.community .main .right .user ul {
+  padding: 20px 13px 21px 20px;
+}
+.community .main .right .user ul li::before {
+  content: "";
+}
+.community .main .right .user ul li {
+  position: relative;
+}
+.community .main .right .user ul li:first-child {
+  margin-bottom: 24px;
+}
+.community .main .right .user ul li span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 4px 5px;
+  border-radius: 50%;
+}
+.community .main .right .user .login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+}
+.community .main .right .user .login span {
+  padding: 0 10px;
+}
+.index.community .main .right h3.center-title {
+  margin: 0;
+}
+/* 留学社区css结束 */
+/* 帖子详情css开始 */
+.community .post .title {
+  position: relative;
+}
+.community .post .title .operation {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.community .post .title .operation a.response {
+  padding: 7px 15px;
+  border-radius: 4px;
+  vertical-align: bottom;
+  margin-left: 20px;
+}
+.community.post-detail .post-list .post {
+  padding: 0;
+}
+.post-detail .bottom {
+  margin: 14px 0 20px;
+}
+.post-detail .floor {
+  margin: 20px 0;
+}
+.post-detail .floor .content {
+  margin: 20px 0;
+}
+.post-detail .floor .comment {
+  margin: 0 0 20px 40px;
+  padding-bottom: 20px;
+  box-shadow: 0px 2px 4px 0px rgba(204, 204, 204, 0.5);
+}
+.post-detail .floor .comment span.comment-num {
+  display: block;
+  width: 720px;
+  padding: 20px;
+}
+.post-detail .floor .comment .list .item {
+  margin-left: 20px;
+  padding: 14px 0;
+}
+.post-detail .floor .comment .do-comment {
+  margin: 20px 0 20px 20px;
+}
+.post-detail .floor .comment .do-comment input {
+  padding: 7px 14px;
+  width: 600px;
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+}
+.post-detail .floor .comment .do-comment a {
+  padding: 7px 22px;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+.post-detail .floor .user-info img {
+  margin-right: 14px;
+}
+.post-detail .left .sec {
+  padding-bottom: 48px;
+}
+/* 帖子详情css结束 */
+/* 搜索页css开始 */
+.post-list .item {
+  margin-top: 20px;
+}
+.post-list .item .user-info {
+  position: relative;
+}
+.post-list .item .user-info img {
+  width: 34px;
+  height: 34px;
+  margin-right: 14px;
+  vertical-align: middle;
+}
+.post-list .item p {
+  margin: 20px 0;
+}
+.post-list .item .bottom {
+  margin-bottom: 20px;
+}
+.post-list .item .user-info a.cancel {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* 搜索页css结束 */
+/* 搜索为空页css开始 */
+.search2 .empty {
+  text-align: center;
+  margin-top: 80px;
+}
+.search2 .empty img {
+  display: block;
+  margin: 20px auto;
+}
+.search2 .empty a {
+  padding: 7px 46px;
+  border-radius: 4px;
+}
+/* 搜索为空页css结束 */
+/* 关于我们css开始 */
+.about-us h3 {
+  text-align: center;
+}
+.about-us p:not(:last-child) {
+  margin-bottom: 20px;
+}
+.about-us h3,
+.about-us div {
+  margin-bottom: 40px;
+}
+.about-us .page_location {
+  padding: 40px 0 0;
+}
+.about-us .swiper-container {
+  width: 1140px;
+  height: 354px;
+  margin-bottom: 40px;
+}
+.about-us .swiper-container .swiper-slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+.about-us .swiper-container .swiper-slide img {
+  width: 500px;
+  height: 250px;
+}
+.about-us .swiper-container ul {
+  margin-left: 80px;
+}
+.about-us .swiper-container ul li {
+  position: relative;
+}
+.about-us .swiper-container ul li.site {
+  margin-bottom: 20px;
+}
+.about-us .swiper-container ul li:not(.site) {
+  display: block;
+  margin: 0 0 14px 28px;
+}
+.about-us .swiper-container ul li:not(.site)::before {
+  content: "";
+  position: absolute;
+  left: -28px;
+  width: 18px;
+  height: 17px;
+  margin-right: 10px;
+}
+.about-us .swiper-container ul li.hotline::before,
+.about-us .swiper-container ul li.phone::before {
+  background: url(../images/hotline.png) no-repeat top left / 17px 14px; /*兼容没测*/
+}
+.about-us .swiper-container ul li.wechat::before {
+  background: url(../images/wechat1.png) no-repeat top left / 18px 14px; /*兼容没测*/
+}
+.about-us .swiper-container ul li.address::before {
+  background: url(../images/address.png) no-repeat top left / 14px 17px; /*兼容没测*/
+}
+.about-us .swiper-container .swiper-pagination-bullets {
+  bottom: -20px;
+}
+.about-us .swiper-container {
+  box-shadow: 0px 2px 4px 0px rgba(204, 204, 204, 0.5);
+}
+.about-us
+  .swiper-container-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 10px;
+}
+/* 关于我们css结束*/
+/* 我的关注css开始 */
+ul.mine li {
+  margin-right: 20px;
+}
+.post-list .item .bottom a {
+  margin-right: 20px;
+}
+/* 我的关注css结束 */
+/* 个人信息css开始 */
+div.self-info {
+  margin-top: 98px;
+}
+.self-info .main {
+  margin-bottom: 40px;
+}
+.self-info .left {
+  width: 210px;
+  margin-right: 20px;
+}
+.self-info .left .user-info {
+  padding: 20px 65px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.self-info .shadow {
+  box-shadow: 0px 2px 4px 0px rgba(204, 204, 204, 0.5);
+}
+.self-info .left .user-info img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.self-info ul.function-tab li.self-info {
+  border-radius: 4px 4px 0 0;
+}
+.self-info ul.function-tab li.participate {
+  border-radius: 0 0 4px 4px;
+}
+.self-info ul.function-tab li {
+  display: block;
+  padding: 20px 77px;
+}
+.self-info .right {
+  width: 950px;
+  text-align: center;
+}
+.self-info .right > div {
+  position: relative;
+  padding-bottom: 60px;
+  vertical-align: bottom;
+}
+.self-info .right > div.img a {
+  position: absolute;
+  left: 503px;
+  top: 88px;
+}
+.self-info .right > div > span {
+  position: absolute;
+  left: 80px;
+}
+.self-info .right > div > input {
+  position: absolute;
+  left: 184px;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 4px;
+  width: 372px;
+}
+.self-info .right > div > a {
+  position: absolute;
+  left: 600px;
+  line-height: 30px;
+}
+.self-info .right img.head {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 0;
+}
+.self-info .right div.modify {
+  margin-bottom: 20px;
+  width: 400px;
+}
+.self-info .right .modify a {
+  padding: 7px 22px;
+  display: inline-block;
+  border-radius: 4px;
+}
+.self-info .right .modify a:first-child {
+  position: absolute;
+  left: 176px;
+}
+.self-info .right .modify a:last-child {
+  position: absolute;
+  left: 268px;
+  box-sizing: border-box;
+}
+.self-info .reset-pass input {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 12px 14px;
+  width: 292px;
+  height: 20px;
+  border-radius: 4px;
+}
+.self-info .reset-pass h3 {
+  margin: 40px 0;
+}
+.self-info .reset-pass a.confirm{
+  padding: 12px 146px;
+  border-radius: 4px;
+}
+/* 个人信息css结束 */

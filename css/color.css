@@ -1,0 +1,186 @@
+.index .main .right .infosend .send_smscode,
+.main ul.pagination li,
+.article-foot .label span,
+.article-foot .pagination ul li,
+.header .right .user-info,
+.cover .quick .form ul.tab,
+.cover .quick form span,
+.self-info .reset-pass input {
+  border: #e6e6e6 1px solid;
+}
+.expshare a.more,
+.header.community .center input {
+  border: #265fab 1px solid;
+}
+.self-info .right .modify a:last-child {
+  border: #666666 1px solid;
+}
+.index .main .left .sec3 .one-line,
+.footer,
+.community .main .right .user ul {
+  border-top: #ebebeb 1px solid;
+}
+.main .right .sec1 {
+  border-top: #265fab 2px solid;
+}
+.header-line,
+.index .main .left .sec3 .one-line,
+.expshare .main .left ul.abroad,
+.main .left .one-line,
+.index .main h3.sub-title,
+.index .main h3.center-title,
+.main ul.country,
+.header .user .user-info li,
+.cover .quick .form input,
+.index .main .left ul.community-section,
+.community .post-list .post,
+.post-detail .floor .comment span.comment-num,
+.post-detail .floor .comment .list .item,
+.post-detail .floor,
+.self-info .main .left ul li {
+  border-bottom: #ebebeb 1px solid;
+}
+.index .main .right .sec:not(:last-child),
+.expshare .main .left ul.abroad li.active,
+.expshare .main .left ul.abroad li:hover,
+body.index .header ul li.index,
+body.news .header ul li.news,
+body.expshare .header ul li.expshare,
+.header ul li:hover {
+  border-bottom: #265fab 2px solid;
+}
+.index .main .left .one-line a.left span.classify,
+.index .main .left .sec3 .classify,
+.index .main .right .infosend .button_send,
+.main ul.pagination li.active,
+.main ul.pagination li:hover,
+.main ul.country li.active,
+.main ul.country li:hover,
+.info .main .sec2 .day-info .day,
+.expshare a.more:hover,
+.header .right .user.login:hover,
+.header .right .user-info li:hover,
+.cover .quick form a.button_send,
+.header.community .center a,
+.community .main .right .user ul li span,
+a.response,
+.post-detail .floor .comment .do-comment a,
+.search2 .empty a,
+.self-info .main .left ul li.active,
+.self-info .right .modify a:first-child,
+.self-info .reset-pass a.confirm {
+  background: #265fab;
+}
+.index a.attach span,
+.info .show .table,
+.main .right .hot-article .one-line a.info-img span {
+  background: RGBA(0, 0, 0, 0.6);
+}
+.main ul.country li,
+.cover .quick .form ul.tab li.hide,
+.post-detail .floor .comment .do-comment input {
+  background: #e6e6e6;
+}
+.self-info .right > div > input {
+  background: #fafafa;
+}
+.info .infosend .send_smscode,
+.container .infosend .button_send,
+.header .right .user-info li,
+.header {
+  background: #ffffff;
+}
+.index a.attach span,
+.index .main .left .one-line a.left span.classify,
+.index .main .left .sec3 .classify,
+.index .main .right .infosend .button_send,
+.info .show .table h3,
+.main .left ul.country li.active a,
+.main .left ul.country li:hover a,
+.main ul.pagination li.active span,
+.main ul.pagination li:hover,
+.main ul.pagination li:hover a,
+.info .main .sec2 .day-info .day,
+.main .right .hot-article .one-line a.info-img span,
+.expshare a.more:hover,
+.header .user:hover span.name,
+.header .right .user-info a,
+.header .right .user-info a:hover,
+.cover .quick form a.button_send,
+.header.community .center a,
+.community .main .right .user ul li span,
+.post-detail .post .title .operation a.response,
+.post-detail .floor .comment .do-comment a,
+.search2 .empty a,
+.self-info .main .left ul li.active a,
+.self-info .right .modify a:first-child,
+.self-info .reset-pass a.confirm {
+  color: #ffffff;
+}
+.index .main h3.sub-title,
+.index .main .left .one-line .right h3,
+.index .main .left ul.community-section li a,
+.index .main .left .sec3 .list .item a,
+.footer ul a,
+.info .infosend .button_send,
+.main ul.pagination li a,
+.guess-like .suggest a,
+.article-foot .pagination ul li.active,
+.article-detail .other-link a,
+.header .right .user-info a,
+.community .main .right .user .login a,
+.community .main .post a,
+.post-list .item .user-info a.name,
+.post-list .item p a,
+.self-info .main .left ul li a,
+.self-info .right > div > span:nth-child(1) {
+  color: #333333;
+}
+.header ul li a,
+.header .right a,
+.index .main .right .top-info .info-title,
+.index .main .right .sec8 span,
+.index .main .right ul a,
+.page_location a,
+.main .left ul li a,
+.article-foot,
+.cover .quick form span {
+  color: #666666;
+}
+.index .main .title .more,
+.index .main .left .one-line .right,
+.index .main .left .sec3 .list .item span,
+.index .main .right .one-line p,
+.index .infosend,
+.index .infosend select,
+.footer .copyright span,
+.info .main .right .sec1 .one-line .right span,
+.main > .right span,
+.article-detail .note,
+.bottom span,
+.post-list .item a {
+  color: #999999;
+}
+.header ul li.active a,
+.header ul li:hover a,
+.header .user a:hover,
+.index .show .swiper-pagination-bullet,
+.index .main .title .more:hover,
+.index .main .left .one-line .right h3:hover,
+.index a.attach span:hover,
+.index .main .left ul.community-section li a:hover,
+.index .main .right ul a:hover,
+.index .main .right ul li::before,
+.expshare a.more,
+.article-foot .pagination ul li a,
+.article-detail .other-link a:hover,
+.cover .quick form a,
+.search2 .empty em.search-word,
+.about-us h3,
+ul.mine li.active a,
+.self-info .right > div > a {
+  color: #265fab;
+}
+.search1 em.search-word {
+  color: #f43e35;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人信息</title>
+    <link rel="stylesheet" type="text/css" href="http://www.kewo.com/Public/Uploads/Zt/file/20180309/kewo_reset.css">
+    <link href="https://cdn.bootcss.com/Swiper/4.3.0/css/swiper.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/color.css">
+    <link rel="stylesheet" href="./css/font-size.css">
+</head>
+
+<body>
+    <!-- 顶部导航栏开始 -->
+    <div class="header-line">
+        <div class="header container">
+            <a href="" class="logo">
+                <img class="kewo-logo" src="./images/kewo-icon.png">
+            </a>
+            <ul>
+                <li class="index">
+                    <a href="index.html">首页</a>
+                </li>
+                <li class="news">
+                    <a href="news.html">留学要闻</a>
+                </li>
+                <li class="expshare">
+                    <a href="expshare.html">经验分享</a>
+                </li>
+                <li class="community">
+                    <a href="community.html">留学社区</a>
+                </li>
+            </ul>
+            <div class="right">
+                <div class="phone">
+                    <img class="phone-icon" src="./images/phone-icon.png">
+                    <span>400-1234-1234</span>
+                </div>
+                <div class="user login">
+                    <img src="./images/head.png" alt="">
+                    <span class="name">DearMe</span>
+                    <ul class="user-info">
+                        <li>
+                            <a href="self-info.html">个人信息</a>
+                        </li>
+                        <li>
+                            <a href="attention.html">我的关注</a>
+                        </li>
+                        <li>
+                            <a href="participate.html">我的参与</a>
+                        </li>
+                        <li>
+                            <a href="">退出</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 顶部导航栏结束 -->
+    <div class="container self-info">
+        <div class="page_location w">
+            <a href="index.html" class="parent_path">首页</a>
+            <a href="" class="current_path">个人中心</a>
+        </div>
+        <div class="main">
+            <!-- 主体左侧内容开始 -->
+            <div class="left">
+                <div class="user-info shadow">
+                    <img src="./images/head-icon.png" alt="">
+                    <span>DearMe</span>
+                </div>
+                <ul class="function-tab shadow">
+                    <li class="self-info active">
+                        <a href="javascript:;">个人信息</a>
+                    </li>
+                    <li class="reset-pass">
+                        <a href="javascript:;">修改密码</a>
+                    </li>
+                    <li class="attention">
+                        <a href="attention.html">我的关注</a>
+                    </li>
+                    <li class="participate">
+                        <a href="participate.html">我的参与</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 主体左侧内容结束 -->
+            <!-- 主体右侧内容开始 -->
+            <div class="right info">
+                <div class="img">
+                    <img src="./images/head-icon.png" alt="" class="head">
+                    <a href="">
+                        <img src="./images/camera.png" alt="" class="modify">
+                    </a>
+                </div>
+                <div class="nickname">
+                    <span>昵称：</span>
+                    <input type="text" value="DearMe" disabled>
+                    <a href="javascript:;">修改</a>
+                </div>
+                <div class="modify hidden">
+                    <a href="">保存</a>
+                    <a href="">取消</a>
+                </div>
+                <div class="phone">
+                    <span>手机号：</span>
+                    <input type="text" value="15295532527" disabled>
+                    <a href="">修改</a>
+                </div>
+                <div class="email">
+                    <span>邮箱：</span>
+                    <input type="text" value="15295532527@163.com" disabled>
+                    <a href="">绑定</a>
+                </div>
+            </div>
+            <div class="right hidden reset-pass">
+                <h3>修改密码</h3>
+                <input type="password" placeholder="原始密码">
+                <input type="password" placeholder="新密码">
+                <input type="password" placeholder="确认新密码">
+                <a href="" class="confirm">确认</a>
+            </div>
+            <!-- 主体右侧内容结束 -->
+        </div>
+    </div>
+    <!-- 页脚开始 -->
+    <div class="footer">
+        <div class="foot-nav container">
+            <img class="kewo-logo" src="./images/kewo-icon.png">
+            <div class="copyright">
+                <ul>
+                    <li>
+                        <a href="news.html">留学要闻</a>
+                    </li>
+                    <li>
+                        <a href="expshare.html">经验分享</a>
+                    </li>
+                    <li>
+                        <a href="community.html">留学社区</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">关于我们</a>
+                    </li>
+                </ul>
+                <span>增值电信业务经营许可证：苏ICP备17009794号-2 南京课窝教育版权所有</span>
+            </div>
+        </div>
+    </div>
+    <!-- 页脚结束 -->
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/Swiper/4.3.0/js/swiper.min.js"></script>
+    <script src="./js/infosend.js"></script>
+    <script src="./js/myswiper.js"></script>
+    <script src="./js/quick-login.js"></script>
+    <script>
+        $("li.reset-pass").click(function () {
+            $("div.right.reset-pass").removeClass("hidden");
+            $("div.right.info").addClass("hidden");
+            $(this).addClass("active");
+            $(this).siblings("li").removeClass("active");
+        })
+        $("li.self-info").click(function () {
+            $("div.right.reset-pass").addClass("hidden");
+            $("div.right.info").removeClass("hidden");
+            $(this).addClass("active");
+            $(this).siblings("li").removeClass("active");
+        })
+        $(".nickname a").click(function () {
+            $(".nickname input").removeAttr("disabled");
+            $(this).addClass("hidden");
+            $("div.modify").removeClass("hidden");
+        })
+    </script>
+</body>
+
+</html>

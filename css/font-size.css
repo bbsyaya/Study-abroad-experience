@@ -1,0 +1,43 @@
+ul {
+  font-size: 0px;
+}
+.index .main .left .one-line .right .bottom,
+.index .main .right .one-line p,
+.footer .copyright span,
+.info .main .right .sec1 .one-line .right span,
+.info .main .right .one-line a.info-img span,
+.right span,
+.article-detail .note span,
+.cover .quick form span.agreement {
+  font-size: 12px;
+}
+div.index,
+.index .main ul,
+.header .right .user-info,
+.cover .quick form,
+.header .user a,
+.header.community,
+.header.community ul,
+.about-us .swiper-container ul,
+.container.self-info ul.function-tab,
+.container.self-info .right,
+.container.self-info .right span,
+.page_location{
+  font-size: 14px;
+}
+.header ul,
+.footer ul,
+.article-detail .content p,
+.login + span,
+.about-us .swiper-container ul li.site {
+  font-size: 16px;
+}
+.index .show .swiper-container,
+.index h3,
+.expshare .main .left ul.abroad,
+.cover .quick .form ul.tab {
+  font-size: 18px;
+}
+.article-detail h2.article {
+  font-size: 20px;
+}
